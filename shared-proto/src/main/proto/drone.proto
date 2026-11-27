@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package drone.v1;
+
+option java_package = "helloworkflow.drone.proto";
+option java_multiple_files = true;
+
+message DronePosition {
+  int64 id = 1;
+  string pos1 = 2;
+  string pos2 = 3;
+}

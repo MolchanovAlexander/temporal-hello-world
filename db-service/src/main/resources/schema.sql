@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS drone_position (
+    id BIGINT PRIMARY KEY,
+    pos1 TEXT NOT NULL,
+    pos2 TEXT NOT NULL
+);
